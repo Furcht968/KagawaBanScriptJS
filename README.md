@@ -1,2 +1,4 @@
-# KagawaBanScriptJS
-# KagawaBanScriptJS
+# 香川規制プログラム
+## 香川規制プログラムとは？
+
+香川県っぽいところからアクセスすると規制するプログラムです。
