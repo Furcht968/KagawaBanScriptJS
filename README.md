@@ -1,0 +1,2 @@
+# KagawaBanScriptJS
+# KagawaBanScriptJS
