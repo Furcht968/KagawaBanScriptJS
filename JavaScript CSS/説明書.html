@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <title>香川県規制プログラム 説明書</title>
+</head>
+<body>
+<h1>香川規制プログラムの説明書</h1>
+<h2>下準備</h2>
+<p>jsファイルを読み込んでおいてください
+<h2>例1 普通に表示する</h2>
+<p>
+記事タグなどのclassに"kagawa"を付けましょう。<br>
+ソースコード:
+<pre>
+<body>
+&lt;div class="kagawa">
+&lt;/div>
+&lt;script src="./KBP.js">
+&lt;/script>
+<body>
+</pre>
+出力（香川）：<br>
+<pre>
+<h1>条例によって禁止されています</h1><p>香川県民はネット・ゲーム依存対策条例によりこのサービスの利用は規制されています。
+</pre>
+</p>
+<h2>例2　カスタマイズする</h2>
+<p>KBP.cssをロードし、"kagawa2"を用いた別のタグを使用します</p>
+ソースコード：<br>
+<pre>
+〜略〜
+&lt;link rel="stylesheet" href="./KBP.css">
+&lt;/head>
+&lt;body>
+ &lt;div class="kagawa2">
+  &lt;h1>ネットはいいからさっさとうどん食え&lt;h1>
+ &lt;/div>
+ &lt;div class="kagawa">
+ &lt;/div>
+&lt;body>
+</pre>
+出力（香川）：<br>
+<pre>
+<h1>ネットはいいからさっさとうどん食え</h1>
+</pre>
+使用はしないと思いますが作らせていただきました。
+</p>
+<script>
+</script>
+</body>
+</html>
