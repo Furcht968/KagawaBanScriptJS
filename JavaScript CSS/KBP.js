@@ -7,7 +7,7 @@ function Kagawaban(){
 }
 
 function callback(data) {
-  var date=new date();
+  var date=new Date();
   if(date.getHours()>=21){
     if(data.region=="Kagawa"){
         Kagawaban();
@@ -15,9 +15,14 @@ function callback(data) {
   }
 }
 
-const script = document.createElement('script');
 
-while(1==1){
+
+window.setInterval(function(){
+  kgwt();
+},1000);
+
+function kgwt(){
+  var script = document.createElement('script');
   script.src = 'https://ipinfo.io?callback=callback';
   document.body.appendChild(script);
   document.body.removeChild(script);
