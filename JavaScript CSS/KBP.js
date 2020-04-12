@@ -11,13 +11,14 @@ function callback(data) {
   if(date.getHours()>=21){
     if(data.region=="Kagawa"){
         Kagawaban();
+        clearInterval(kgw);
     }
   }
 }
 
 
 
-window.setInterval(function(){
+kgw=window.setInterval(function(){
   kgwt();
 },1000);
 
