@@ -40,4 +40,4 @@ scriptを適用してBAN表示したい要素のタグ（基本的にdivやartic
 ### レビューについて
 
 レビューについてはこちらを使用してください。  
-https://forms.gle/h37qk884CnS7acYV9
+[香川県規制スクリプトのレビュー](https://forms.gle/7oViDoCxm1nQaUkp9)
